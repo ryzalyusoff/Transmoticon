@@ -8,7 +8,7 @@
  [
 	{
 		"matches":["*://*/*"],
-		"js":["jquery-1.9.1.js","select2.js"],
+		"js":["jquery-1.9.1.js","select.js"],
 		"run_at":"document_start"
 	}
  ], 
