@@ -4,6 +4,9 @@
   "incognito": "split",
   "permissions": [ "*://*/*"],
   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "web_accessible_resources": [
+    "fix.css"
+ ],
   "content_scripts" : 
  [
 	{
