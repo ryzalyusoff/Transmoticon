@@ -118,7 +118,7 @@ $(document).ready(function(){
 		var data = textReader(getSelected());
 		$('#pop').css("display","none")
 		if ( data.length !== 0 ){
-			$('#pop').css("display","block").css("webkit-border-radius","5px").css("font-family","arial,sans-serif").css("background-color","#eeeeee").css("font-size","12px").css("padding","10px").css("border","1px solid #727272").css("top",event.pageY).css("left",event.pageX).html(
+			$('#pop').html(
 			
 				"<div style='width:240px;height:25px;border-bottom:1px solid #727272;margin-bottom:10px;' >" + data[3] + " " + data[1] + "</div>"
 			
@@ -130,23 +130,7 @@ $(document).ready(function(){
 		}
 		//console.log(getSelected()+"");
 	});
-	
-	$(document).bind("keypress",function(event){
-		var data = textReader(getSelected());
-		$('#pop').css("display","none")
-		if ( data.length !== 0 ){
-			$('#pop').css("display","block").css("webkit-border-radius","5px").css("font-family","arial,sans-serif").css("background-color","#eeeeee").css("font-size","12px").css("padding","10px").css("border","1px solid #727272").css("top",event.pageY).css("left",event.pageX).html(
-			
-				"<div style='width:240px;height:25px;border-bottom:1px solid #727272;margin-bottom:10px;' >" + data[3] + " " + data[1] + "</div>"
-			
-				 + data[2]
-			
-			);
-			
-			//parseHTML(data[3]);
-		}
-		//console.log(getSelected()+"");
-	});
+
 	
 	
 	

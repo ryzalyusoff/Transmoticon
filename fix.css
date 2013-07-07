@@ -1,0 +1,11 @@
+#pop{
+	display:block;
+	-webkit-border-radius:5px;
+	font-family:arial,sans-serif;
+	background-color:#eeeeee;
+	font-size:12px;
+	padding:10px;
+	border:1px solid #727272;
+	top:event.pageY;
+	
+}
